@@ -1,0 +1,13 @@
+.go_center_manager{
+	display: inline-block;
+    width: 100%;
+}
+
+@media (max-width: 786px){
+	.navbar-header{
+		display: none;
+	}
+	.only_on_phone_manager{
+		display: block !important;
+	}
+}
